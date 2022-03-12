@@ -71,53 +71,13 @@
 	},
 	"sources": {
 		"contracts/4_HelloWorld.sol": {
-			"keccak256": "0x2e367da4021dcc113681d484fbffd14af22e4e8ec99bba9002894e5ace00c3cf",
+			"keccak256": "0x8975b7bf3bf10b916ddd2be54706c9ccc6bfb607eb14abe3ae2b51e96bac8c0b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c74ed66b87c95fafa29fec0a54a2d6e7a86c4f3bee0d751207801a3fbeb85cd9",
-				"dweb:/ipfs/QmbkLrUazCAC8nvGxmFCyxufrr5tAhCq9uLYtWQKNKKMfy"
+				"bzz-raw://c928040ca98a3230f29d746516a60a7f2ee2158262c6a738f90d96e95c1c1e64",
+				"dweb:/ipfs/QmVukExPJuX3bRzs2145akbX4xFnkb354CuGib2rgr9Jr2"
 			]
 		}
 	},
 	"version": 1
 }
-
-[
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "_greeting",
-				"type": "string"
-			}
-		],
-		"name": "set",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "success",
-				"type": "bool"
-			}
-		],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"stateMutability": "nonpayable",
-		"type": "constructor"
-	},
-	{
-		"inputs": [],
-		"name": "get",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	}
-]
